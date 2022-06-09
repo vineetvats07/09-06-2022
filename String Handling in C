@@ -1,0 +1,13 @@
+//Write a program to read input of string in both manners
+#include <stdio.h>
+int main()
+{
+    char str[10]="\nGood!";
+    printf("%s",str);
+    char str1[50]={'h','e','l','l','0','\0'};
+    printf("%s",str1);
+  
+    return 0;
+
+}
+    
