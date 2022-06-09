@@ -1,0 +1,26 @@
+//Write a program to implement 2D array 
+#include <stdio.h>
+int main()
+{
+    int arr[100][100],m,n,i,j;
+    printf("\nEnter the number of rows:");
+    scanf("%d",&m);
+    printf("\nEnter the number of Columns:");
+    scanf("%d",&n);
+    for(i=0;i<m;i++)
+    {
+      for(j=0;j<n;j++)
+    {
+      scanf("%d",&arr[i][j]);  
+    }
+    }
+    printf("\nPrinting Array elements Below\n");
+     for(i=0;i<m;i++)
+    {
+      for(j=0;j<n;j++)
+    { 
+        printf("%d ",arr[i][j]);
+    }
+    return 0;
+}
+}
